@@ -33,7 +33,7 @@ export default function NavBar() {
                 className="group transition duration-500 ease-linear flex items-end justify-start rounded-md border-slate-200 border-2 hover:bg-left-bottom hover:bg-slate-200  px-4 py-2"
                 href="/"
             >
-                <Image src={'/ILettermark.svg'} alt="letter i" width={10} height={10}/>
+                <Image src={'/favicon.ico'} alt="MW initials" width={30} height={30}/>
                 <p className="px-2 text-slate-200 group-hover:text-slate-950 my-auto">
                     | Design
                 </p>
