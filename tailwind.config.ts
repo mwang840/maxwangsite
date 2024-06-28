@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
   },
+  colors: {
+    darkblue: "#0d2954"
+  },
   plugins: [],
 };
 export default config;
