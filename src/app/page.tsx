@@ -4,7 +4,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Link from "next/link";
 import {inter} from "./components/fonts";
-import {ytToAudioImg, sudokuCSPImg, HenHacks2024Img, CISSchedulerImg} from "./components/project-images";
+import {ytToAudioImg, sudokuCSPImg, HenHacks2024Img, CISSchedulerImg, CompVisionsImg} from "./components/project-images";
 
 export default function Page() {
     return (
@@ -30,8 +30,8 @@ export default function Page() {
                                    I am a software engineer, having recently graduated from the University of Delaware with a Bachelors of Science in Computer Science.
                                 </p>
                                 <p  className={`text-slate-200 text-md`}>
-                                    When I&apos;m not coding on my computer. I love traveling the world and also hiking in parks. I also am a avid gym goer, ensuring that I always keep myself healthy and build an respectable physique. I also have a side hobby in chess, occasionally going to chess.com to learn more puzzles.
-                                    Other then that, I also enjoy aviation a lot, having a big passion for passenger planes ranging from the 747/A380 hub and spoke eras to modern aircraft such as the 787, A350, A330neo and the 777 series.
+                                    When I&apos;m not coding on my computer. I love traveling the world and also hiking in parks. I also am a avid gym goer, ensuring that I always keep myself healthy and build an respectable physique. I also have a side hobby in chess, occasionally going to chess.com to learn more chess puzzles and strategies.
+                                    Other then that, I also enjoy aviation a lot, having a big passion for passenger planes ranging from the 747/A380 jumbo jet eras to modern aircraft such as the 787, A350, A330neo and the 777 series.
                                     Sometimes I do some podcasting on youtube. Further I enjoy math, having developed a passion for it as an child.
                                 </p>
                             </div>
@@ -73,6 +73,7 @@ export default function Page() {
                                 <Projects title="Sudoku Constraint Satisfication Problem" chips={["Python", "Flask", "HTML"]} description="A project taking a Sudoku Board, utilizing AC-3 algortithm to solve a sudoku problem as well as leveraging backtracking algorithm to fill out a 4x4 or an 9x9 sudoku board. Note the algorithm may not work for all 9x9 puzzles" imageRef={sudokuCSPImg} externalLink={['https://en.wikipedia.org/wiki/Constraint_satisfaction_problem', 'Click to learn more']}/>
                                 <Projects title="Type Evolve" chips={["JavaScript", "React", "LLAMA.cpp", "Node.js", "Axios"]} description="An AI-powered interactive typing tutor. This system presents users with a novel approach to enhancing typing proficiency through customized stories, each spanning one to three lines. During engagement with these stories, Type Evolve tracks a range of metrics including typing speed, accuracy, and both the nature and frequency of errors at the word and individual key levels. Upon completing each story, users are provided with a summary of these metrics, accompanied by a keyboard heat map. This heat map graphically depicts challenging areas, emphasizing both frequently missed target keys and incorrect key presses. Users can then choose to generate a new prompt, where the collected metrics are injected into customized instruction which are subsequently fed through state-of-the-art large language model (LLM) that powers Type Evolve. The generated output is a customized prompt that is tailored to address deficiencies in the user's prior performance. In a unique application of natural language processing (NLP) technology, Type Evolve employs an optimized large. Overall, this adaptive approach promises a dynamic and continuously evolving learning experience for each user." imageRef={HenHacks2024Img} externalLink={['https://github.com/MattBoraske/TypeEvolve', 'Click to learn more']}/>
                                 <Projects title="UD CIS Scheduler" chips={["TypeScript", "React", "Bootstrap"]} description="A University of Delaware front-end website Computer Science Course Scheduler for CS majors, minors and information system (INSY) majors and minors. This allows prospective Computer Science or Information System Students at the University of Delaware to plan out their coursework for the 4 years that they are here (3 if they want to graduate early) and see if it meets the requirements for their degree." imageRef={CISSchedulerImg} externalLink={["https://ud-cisc275-s22.github.io/cis-scheduler-team-007/", "Click here to learn more"]}/>
+                                <Projects title="CIFAR 100 dataset deep learning" chips={["Python", "Pytorch", "Matplotlib", "Numpy", "PIL"]} description="Pretrained a vgg16 model on an CIFAR 100 dataset, performing image classification, training a custom neural network from scratch and also performing image semantic segmentation. For each section, a training accuracy was gathered from the models that were used for the cifar 100 dataset." imageRef={CompVisionsImg} externalLink={["https://www.run.ai/guides/deep-learning-for-computer-vision", "Click to learn more"]}/>
                             </div>
                         </div>
                     </SpotlightCard>

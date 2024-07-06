@@ -2,3 +2,4 @@ export const ytToAudioImg  = ["/projects/DownloadingYtLink.png", "/projects/Dire
 export const sudokuCSPImg = ["/projects/sudokuStartingSite.png", "/projects/FilledSudoku9x9.png"];
 export const HenHacks2024Img = ["/projects/TypeEvolve.png", "/projects/TypeEvolveResults.png"];
 export const CISSchedulerImg = ["/projects/Popup.png", "/projects/DegreePlanner.png", "/projects/UDSemesterSelector.png", "/projects/DegreeRequirements.png"]
+export const CompVisionsImg = ["/projects/cifar100.jpg", "/projects/SemanticSegementation.png"]
