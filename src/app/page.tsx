@@ -30,8 +30,8 @@ export default function Page() {
                                    I am a software engineer, having recently graduated from the University of Delaware with a Bachelors of Science in Computer Science.
                                 </p>
                                 <p  className={`text-slate-200 text-md`}>
-                                    When I&apos;m not coding on my computer. I love traveling the world and also hiking in parks. I also am a avid gym goer, ensuring that I always keep myself healthy and build an respectable physique. I also have a side hobby in chess, occasionally going to chess.com to learn more chess puzzles and strategies.
-                                    Other then that, I also enjoy aviation a lot, having a big passion for passenger planes ranging from the 747/A380 jumbo jet eras to modern aircraft such as the 787, A350, A330neo and the 777 series.
+                                    When I&apos;m not coding on my computer. I love traveling the world and also hiking in parks. I also am a avid gym goer, ensuring that I always keep myself healthy and build an respectable physique. I also have a side hobby in chess, occasionally going to chess.com to learn more puzzles.
+                                    Other then that, I also enjoy aviation a lot, having a big passion for passenger planes ranging from the 747/A380 hub and spoke eras to modern aircraft such as the 787, A350, A330neo and the 777 series.
                                     Sometimes I do some podcasting on youtube. Further I enjoy math, having developed a passion for it as an child.
                                 </p>
                             </div>
