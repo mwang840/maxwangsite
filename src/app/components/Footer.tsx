@@ -12,7 +12,7 @@ export default function Footer() {
                     I&apos;m always interested in ideas. Startups, projects, or you just need help hit me up! I can&apos;t guarantee work, but I&apos;m always open to passionate people.
                 </p>
                 <p className="text-slate-800 font-semibold text-md md:text-lg lg:text-xl text-center">
-                    Interested? Shoot me an email, dm, or find me in person.
+                    Interested? Shoot me an email, connect with me on linkedin or github or follow my youtube channel below!
                 </p>
             </div>
             <div className="flex flex-row mt-16 space-x-5">
@@ -21,6 +21,9 @@ export default function Footer() {
                 </Link>
                 <Link href='https://www.linkedin.com/in/maxwell-wang-08ws/'>
                     <Image src={'/files/linkedin.svg'} alt="linkedin logo" width={50} height={50}/>
+                </Link>
+                <Link href="https://www.youtube.com/channel/UCHCqPwHUde2P-idHPUTMoqA">
+                    <Image src={"/files/YouTube.png"} alt="youtube logo" width={40} height={40}/>
                 </Link>
             </div>
             <p className="my-5 pb-5">
