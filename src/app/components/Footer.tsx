@@ -19,7 +19,7 @@ export default function Footer() {
                 <Link href='https://www.linkedin.com/in/maxwell-wang-08ws/'>
                     <Image src={'/files/linkedin.svg'} alt="linkedin logo" width={50} height={50}/>
                 </Link>
-                <Link href="https://www.youtube.com/channel/UCHCqPwHUde2P-idHPUTMoqA">
+                <Link href="https://www.youtube.com/channel/UC9LV2LzPtnWEjJ8Kn21KTZw">
                     <Image src={"/files/YouTube.png"} alt="youtube logo" width={40} height={40}/>
                 </Link>
             </div>
