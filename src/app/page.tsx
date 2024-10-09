@@ -44,10 +44,10 @@ export default function Page() {
                                     <br></br>
                                     Bachelors of Science Degree in Computer Science, Artificial Intelligence and Robotics Concentration
                                     <br></br>
-                                    Class of 24&apos;
+                                    Gradudated with the class of 2024!
                                 </p>
 
-                                <Link href={'files/MW Resume.pdf'} target="_blank" rel="noopener noreferrer">
+                                <Link href={"files/Maxwell Wang's Current Resume.pdf"} target="_blank" rel="noopener noreferrer">
                                     <span className="text-slate-200 hover:text-sky-300">
                                         View Full Résumé
                                     </span>
@@ -58,7 +58,7 @@ export default function Page() {
                                 <p className="text-slate-200 text-xl font-bold">
                                     Experience
                                 </p>
-                                <Experience start="August 2024" end="Present" title="Northrop Grumman" jobTitle="Software Engineer" description="Developed and design a simulation game using godot, blender modeling and wrote c++ to enhance the functionality of the simulation."/>
+                                <Experience start="August 2024" end="Present" title="Northrop Grumman" jobTitle="Software Engineer" description="Developed and design a simulation game using godot, blender modeling and wrote c++ to enhance the functionality of the simulation. Gained Experience as a Deputy Product owner, attending meetings shadowing the current teams product owner"/>
                                 <Experience start="June 2023" end="May 2024" title="Northrop Grumman" jobTitle="Software Engineer Intern and Co-Op" description="Designed and implemented a software prototype and an custom user experience while  facilitating efficient communication and task prioritization across the team Gained Proficiency in DevOps, Unit Testing, Jira, Cmake, Confluence, and CI/CD pipeline. Optimized standup meetings in the role of interim scrum master, fostering streamlined communication and task prioritization across the team for enhanced efficiency"/>
                                 <Experience start="Feb 2023" end="May 2024" title="University of Delaware Computer & Info. Sciences" jobTitle="Teaching Assistant" description="I instruct CISC 437, focusing on Database Systems, where I cover topics such as SQL, data retrieval languages, and the principles of security, integrity, as well as the physical and logical organization of databases. Additionally, I actively engage with students through office hours, conduct exams and quizzes, and provide clear and constructive feedback to a cohort of 50-60 students. Additionally as duty as an proctor TA, it is my responsibility to schedule exams, whether it be makeup or for computer science courses and to make sure there is not a time constraint in students schedule and the exam schedule. I also report to the TA coordinator about scheduling issues, and whether slots for scheduling exams are avaliable."/>
                                 <Experience start="August 2022" end="May 2024" title="University of Delaware Computer Science for Social Good" jobTitle="Volunteer Outreach" description="I guided potential computer science students to various volunteering, internship, research and industry opportunities within the field. Additionally, I revamped the club's website, enhancing its functionality to showcase events and pose questions for club members, among other improvements."/>
