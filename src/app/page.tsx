@@ -11,6 +11,20 @@ export default function Page() {
         <main className="bg-slate-950">
             <div className="min-h-screen">
                 <Spotlight>
+                <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+                <Image 
+                src="/files/MaxWang.jpg"
+                width={750}
+                height={750}
+                alt="Picture of the author"
+                
+                />
+                </div>
                     <SpotlightCard>
                         <div className={`${inter.className} px-10 my-44 mx-auto flex flex-col lg:px-0 px-auto lg:w-1/2 max-w-5xl`}>
                             <div className="px-5 py-5">
