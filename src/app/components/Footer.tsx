@@ -9,7 +9,7 @@ export default function Footer() {
                     I&apos;m always open for new ideas regardless whether it can be startups, projects, or you just need help! I can&apos;t guarantee work, but I&apos;m always open to passionate people.
                 </p>
                 <p className="text-slate-800 font-semibold text-md md:text-lg lg:text-xl text-center">
-                    Interested? Shoot me an email, connect with me on linkedin or github or follow my youtube channel below!
+                    Interested? Shoot me an email, connect with me on Linkedin or Github or follow my Youtube channel below!
                 </p>
             </div>
             <div className="flex flex-row mt-16 space-x-5">
@@ -24,7 +24,7 @@ export default function Footer() {
                 </Link>
             </div>
             <p className="my-5 pb-5">
-                Maxwell Wang © 2024
+                Maxwell Wang © November 2024
             </p>
         </div>
     );
