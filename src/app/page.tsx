@@ -4,7 +4,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Link from "next/link";
 import {inter} from "./components/fonts";
-import {ytToAudioImg, sudokuCSPImg, HenHacks2024Img, CISSchedulerImg, DECovidImg, CompVisionsImg} from "./components/project-images";
+import {ytToAudioImg, sudokuCSPImg, HenHacks2024Img, CISSchedulerImg, DECovidImg, CompVisionsImg, ytFlaskImg} from "./components/project-images";
 
 export default function Page() {
     return (
@@ -89,6 +89,7 @@ export default function Page() {
                                 <Projects title="UD CIS Scheduler" chips={["TypeScript", "React", "Bootstrap"]} description="A University of Delaware front-end website Computer Science Course Scheduler for CS majors, minors and information system (INSY) majors and minors. This allows prospective Computer Science or Information System Students at the University of Delaware to plan out their coursework for the 4 years that they are here (3 if they want to graduate early) and see if it meets the requirements for their degree." imageRef={CISSchedulerImg} externalLink={["https://ud-cisc275-s22.github.io/cis-scheduler-team-007/", "Click here to learn more"]}/>
                                 <Projects title="Delaware Covid-19 Data Analysis" chips={["Python", "Seaborn", "Pandas", "Sckit-Learn",  "Matplotlib"]} description="This project involves a Python implementation for learning and practicing data visualization using a custom COVID-19 dataset I created during the pandemic. The dataset contains COVID-19 case data from Delaware, Maryland, Texas, and California. A machine learning algorithm, Support Vector Regression (SVR), is trained specifically on the Delaware data. This project aims to enhance data visualization skills and explore predictive modeling using real-world data." imageRef={DECovidImg} externalLink={["https://github.com/mwang840/DelawareCovidDataAnalysis", "Click here to learn more"]}/>
                                 <Projects title="CIFAR 100 dataset deep learning" chips={["Python", "Pytorch", "Matplotlib", "Numpy", "PIL"]} description="A VGG16 model was pretrained on the CIFAR-100 dataset for image classification. Additionally, a custom neural network was trained from scratch, and image semantic segmentation was performed. For each section, the training accuracy was gathered from the models used on the CIFAR-100 dataset." imageRef={CompVisionsImg} externalLink={["https://www.run.ai/guides/deep-learning-for-computer-vision", "Click to learn more"]}/>
+                                <Projects title="Flask Youube to Mp3 Audio File Converter" chips={["Python", "Flask", "Yt-dlp"]} description="An flask application created with Python, Yt-dlp which downloads a youtube link that the user paste in the textbox on the website. Currently downloads in mp3 format but will add some compatibility for other forms of audio." imageRef={ytFlaskImg} externalLink={["https://github.com/mwang840/Yt-Audio-Site", "Click to learn more"]}/>
                             </div>
                         </div>
                     </SpotlightCard>
