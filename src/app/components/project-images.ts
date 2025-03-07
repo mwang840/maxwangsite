@@ -26,6 +26,6 @@ export const CompVisionsImg = ["/projects/cifar100.jpg"];
 export const ytFlaskImg = ["/projects/screenshot.png"];
 export const HenHacks2025Img = [
   "/projects/CanvasAssistantChat.png",
-  "/projects/CanvasAssistantHome.png",
-  "/projects/CanvasAssistantSidebar.png",
+  "/projects/CanvasAssistantPomodoro.png",
+  "/projects/CanvasAssistantStats.png",
 ];

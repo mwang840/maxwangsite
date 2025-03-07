@@ -85,7 +85,7 @@ export default function Page() {
                 </p>
 
                 <Link
-                  href={"files/Maxwell Wang's Resume 2024.pdf"}
+                  href={"files/Maxwell Wang's Current Resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
