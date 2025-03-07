@@ -12,6 +12,7 @@ import {
   DECovidImg,
   CompVisionsImg,
   ytFlaskImg,
+  HenHacks2025Img
 } from "./components/project-images";
 
 export default function Page() {
@@ -43,7 +44,7 @@ export default function Page() {
                 <p
                   className={`text-slate-200 text-3xl font-semibold mt-2 mb-5`}
                 >
-                  I&apos;m an software engineer, web developer, and aspiring
+                  Current software engineer, web developer, and
                   data scientist.
                 </p>
               </div>
@@ -228,6 +229,19 @@ export default function Page() {
                     "Click to learn more",
                   ]}
                 />
+                <Projects
+                 title="Canvas Assistant"
+                 chips={["TypeScript", "Next.js", "TailwindCSS", "Python", "Smalltalk", "React", "FastAPI"]}
+                 description="An Modern Web Application on Canvas written in TypeScript, Next.js and FastAPI which helps students make data-driven decisions across their study habits.
+                 This application has a built in pomodoro timer helping students stay on track while focusing on top priority tasks from their canvas assignments, includes an AI chatbot assistant
+                 that will help guide students on which assignments and classes to prioritize based on grades, due dates and how high the priority is on the application 
+                 and view their course grades, how much time they have spend on each classes and their assignments"
+                 imageRef={HenHacks2025Img}
+                 externalLink={[
+                  "https://github.com/vasantsaladi/ud_hacks",
+                  "Click to learn more",
+                 ]}
+                 />
               </div>
             </div>
           </SpotlightCard>
