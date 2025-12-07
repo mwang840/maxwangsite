@@ -5,7 +5,8 @@ const links = [
     {name: 'About', href: '#About'},
     {name: 'Education', href: '#Education'},
     {name: 'Experience', href: '#Experience'},
-    {name: 'Projects', href: '#Projects'}
+    {name: 'Projects', href: '#Projects'},
+    {name: 'Chess Stats', href: '#ChessStats'}
 ];
 export default function NavLinks() {
     const pathname = usePathname();

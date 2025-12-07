@@ -100,10 +100,17 @@ export default function Page() {
               >
                 <p className="text-slate-200 text-xl font-bold">Experience</p>
                 <Experience
-                  start="August 2024"
+                  start="October 2025"
                   end="Present"
                   title="Northrop Grumman"
                   jobTitle="Software Engineer"
+                  description="Collaborated and developed software solutions addressing requirements using embedded C++, Linux, and Google Test. "
+                />
+                <Experience
+                  start="August 2024"
+                  end="October 2025"
+                  title="Northrop Grumman"
+                  jobTitle="Associate Software Engineer"
                   description="Developed and design a simulation game using godot, blender modeling and wrote C++ code to enhance the functionality of the simulation. Utilized multithreading, round-robin and scheduling to schedule tasks based on priority. Gained experience in the Systems engineering field using Cameo. Gained Experience as a Deputy Product owner and then Scrum Master, facilitating and attending meetings."
                 />
                 <Experience

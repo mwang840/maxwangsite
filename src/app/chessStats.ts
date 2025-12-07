@@ -1,0 +1,1 @@
+export const BASE_URL: string = "https://api.chess.com/pub/dr8coSpurs/stats";
