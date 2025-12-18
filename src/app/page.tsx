@@ -55,7 +55,7 @@ export default function Page() {
                 <p className={`text-slate-200 text-xl font-bold`}>About</p>
 
                 <p className={`text-slate-200 text-md`}>
-                  I am a software engineer, having recently graduated from the
+                  I am a software engineer, graduated from the
                   University of Delaware with a Bachelors of Science in Computer
                   Science.
                 </p>
@@ -81,7 +81,7 @@ export default function Page() {
                   Bachelors of Science Degree in Computer Science, Artificial
                   Intelligence and Robotics Concentration
                   <br></br>
-                  Gradudated with the class of 2024!
+                  Gradudated with the class of 2024
                 </p>
 
                 <Link
