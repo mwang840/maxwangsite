@@ -14,6 +14,7 @@ import {
   ytFlaskImg,
   HenHacks2025Img
 } from "./components/project-images";
+import { ChessStatsDisplay } from "./components/Chess";
 
 export default function Page() {
   return (
@@ -250,6 +251,13 @@ export default function Page() {
                  ]}
                  />
               </div>
+              <div
+                id={"Chess"}
+                className="mt-20 flex flex-col space-y-3 scroll-mt-24 px-5 py-5"
+              >
+                <p className="text-slate-200 text-xl font-bold">Chess</p>
+                <ChessStatsDisplay username="dr8cospurs"/>
+                </div>
             </div>
           </SpotlightCard>
         </Spotlight>
