@@ -24,6 +24,9 @@ interface ChessStats {
   chess960_daily?: {
     last: { rating: number };
   };
+  puzzle_rush? :{
+    best: {total_attempts: number};
+  }
 }
 
 const ChessCard: React.FC<CardProps> = ({ title, content }) => {
@@ -56,7 +59,6 @@ export const ChessStatsDisplay: React.FC<{username:string}> = ({username}) => {
       }
     })
   }, [username])
-  console.log(error)
   if(error){
     return <p>An error occured. Here is the error {error}</p>
   }
@@ -72,6 +74,7 @@ export const ChessStatsDisplay: React.FC<{username:string}> = ({username}) => {
   Bullet 🚅: ${stats.chess_bullet?.last.rating ?? "N/A"}
   Daily ⏱️: ${stats.chess_daily?.last.rating ?? "N/A"}
   Daily960: ${stats.chess960_daily?.last.rating ?? "N/A"}
+  Puzzle_Rush: ${stats.puzzle_rush?.best?? "N/A"}
   `
 
   return <ChessCard title={`${username}'s Chess.com stats`} content={chessContent}/>

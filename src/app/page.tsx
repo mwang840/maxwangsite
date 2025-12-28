@@ -253,9 +253,10 @@ export default function Page() {
               </div>
               <div
                 id={"Chess"}
-                className="mt-20 flex flex-col space-y-3 scroll-mt-24 px-5 py-5"
+                className="mt-20 max-w-xl mx-auto rounded-2xl bg-slate-900/70 backdrop-blur 
+             border border-slate-800 shadow-lg px-6 py-6 space-y-4 scroll-mt-24"
               >
-                <p className="text-slate-200 text-xl font-bold">Chess</p>
+                <p className="text-slate-100 text-xl font-semibold tracking-wide">Chess</p>
                 <ChessStatsDisplay username="dr8cospurs"/>
                 </div>
             </div>
