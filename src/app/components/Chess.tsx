@@ -1,6 +1,6 @@
+"use client";
 import { BASE_URL } from "../chessStats";
 import { useState, useEffect } from "react";
-
 
 interface CardProps {
   title: string;
@@ -34,28 +34,38 @@ const ChessCard: React.FC<CardProps> = ({ title, content }) => {
   );
 };
 
-export const ChessStatsDisplay: React.FC<{username:string}> = ({username}) => {
+export const ChessStatsDisplay: React.FC<{ username: string }> = ({
+  username,
+}) => {
   const [stats, setStats] = useState<ChessStats | null>(null);
   const [error, setError] = useState<string | null>(null);
-  useEffect(()=>{
-    fetch(BASE_URL).then((res)=>{
-      if(!res.ok){
-        throw new Error("Failed to fetch the user's chess.com stats")
-      }
-      return res.json();
-    })
-    .then((data)=>setStats(data))
-    .catch((error)=>setError(error));
+  useEffect(() => {
+    fetch(`${BASE_URL}/${username}/stats`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Failed to fetch the user's chess.com stats");
+        }
+        return res.json();
+      })
+      .then((data) => setStats(data))
+      .catch((err: unknown) => {
+        if (err instanceof Error) {
+          setError(err.message);
+        } else {
+          setError("An error occurred");
+        }
+      });
   }, [username]);
 
-  if(error){
-    return <p>An error occured. Here is the error {error}</p>
+  console.log(error);
+
+  if (error) {
+    return <p>An error occured. Here is the error {error}</p>;
   }
 
   if (!stats) {
     return <p>Loading the players stats...</p>;
   }
-
 
   const chessContent = `
   Blitz: ${stats.chess_blitz?.last.rating ?? "N/A"}
@@ -63,7 +73,12 @@ export const ChessStatsDisplay: React.FC<{username:string}> = ({username}) => {
   Bullet: ${stats.chess_bullet?.last.rating ?? "N/A"}
   Daily: ${stats.chess_daily?.last.rating ?? "N/A"}
   Daily960: ${stats.chess960_daily?.last.rating ?? "N/A"}
-  `
+  `;
 
-  return <ChessCard title={`${username}'s current Chess.com stats`} content={chessContent}/>
-}
+  return (
+    <ChessCard
+      title={`${username}'s current Chess.com stats`}
+      content={chessContent}
+    />
+  );
+};
