@@ -12,7 +12,7 @@ import {
   DECovidImg,
   CompVisionsImg,
   ytFlaskImg,
-  HenHacks2025Img
+  HenHacks2025Img,
 } from "./components/project-images";
 import { ChessStatsDisplay } from "./components/Chess";
 
@@ -40,13 +40,12 @@ export default function Page() {
             >
               <div className="px-5 py-5">
                 <p className={`text-slate-200 text-5xl font-extrabold my-10`}>
-                  Hey! I&apos;m Maxwell Wang 👋
+                  Hello! I&apos;m Maxwell Wang 👋
                 </p>
                 <p
                   className={`text-slate-200 text-3xl font-semibold mt-2 mb-5`}
                 >
-                  Current software engineer, web developer, and
-                  data scientist.
+                  Current software engineer, web developer, and entrepeurner.
                 </p>
               </div>
               <div
@@ -56,9 +55,8 @@ export default function Page() {
                 <p className={`text-slate-200 text-xl font-bold`}>About</p>
 
                 <p className={`text-slate-200 text-md`}>
-                  I am a software engineer, graduated from the
-                  University of Delaware with a Bachelors of Science in Computer
-                  Science.
+                  I am a software engineer, graduated from the University of
+                  Delaware with a Bachelors of Science in Computer Science.
                 </p>
                 <p className={`text-slate-200 text-md`}>
                   When I&apos;m not coding on my computer. I love traveling the
@@ -240,27 +238,37 @@ export default function Page() {
                   ]}
                 />
                 <Projects
-                 title="Canvas Assistant"
-                 chips={["TypeScript", "Next.js", "TailwindCSS", "Python", "Smalltalk", "React", "FastAPI"]}
-                 description="An Modern Web Application on Canvas written in TypeScript, Next.js and FastAPI which helps students make data-driven decisions across their study habits.
+                  title="Canvas Assistant"
+                  chips={[
+                    "TypeScript",
+                    "Next.js",
+                    "TailwindCSS",
+                    "Python",
+                    "Smalltalk",
+                    "React",
+                    "FastAPI",
+                  ]}
+                  description="An Modern Web Application on Canvas written in TypeScript, Next.js and FastAPI which helps students make data-driven decisions across their study habits.
                  This application has a built in pomodoro timer helping students stay on track while focusing on top priority tasks from their canvas assignments, includes an AI chatbot assistant
                  that will help guide students on which assignments and classes to prioritize based on grades, due dates and how high the priority is on the application 
                  and view their course grades, how much time they have spend on each classes and their assignments"
-                 imageRef={HenHacks2025Img}
-                 externalLink={[
-                  "https://github.com/vasantsaladi/ud_hacks",
-                  "Click to learn more",
-                 ]}
-                 />
+                  imageRef={HenHacks2025Img}
+                  externalLink={[
+                    "https://github.com/vasantsaladi/ud_hacks",
+                    "Click to learn more",
+                  ]}
+                />
               </div>
               <div
                 id={"Chess"}
                 className="mt-20 max-w-xl mx-auto rounded-2xl bg-slate-900/70 backdrop-blur 
              border border-slate-800 shadow-lg px-6 py-6 space-y-4 scroll-mt-24"
               >
-                <p className="text-slate-100 text-xl font-semibold tracking-wide">Chess</p>
-                <ChessStatsDisplay username="dr8cospurs"/>
-                </div>
+                <p className="text-slate-100 text-xl font-semibold tracking-wide">
+                  Chess
+                </p>
+                <ChessStatsDisplay username="dr8cospurs" />
+              </div>
             </div>
           </SpotlightCard>
         </Spotlight>
