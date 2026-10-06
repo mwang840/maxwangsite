@@ -104,8 +104,10 @@ export default function Page() {
                   start="October 2025"
                   end="Present"
                   title="Northrop Grumman"
-                  jobTitle="Software Engineer"
-                  description="Collaborated and developed software solutions addressing requirements using embedded C++, Linux, and Google Test. "
+                  jobTitle="Software Engineer 2"
+                  description="Collaborated and developed software solutions addressing requirements using embedded C++, Linux, and Google Test. 
+                  Gained experience as a Scrum Master, facilitating Agile processes and ensuring alignment with the current project goals.
+                  "
                 />
                 <Experience
                   start="August 2024"
@@ -126,21 +128,21 @@ export default function Page() {
                   end="May 2023"
                   title="University of Delaware Computer & Info. Sciences"
                   jobTitle="Teaching Assistant"
-                  description="I instruct CISC 437, focusing on Database Systems, where I cover topics such as SQL, data retrieval languages, and the principles of security, integrity, as well as the physical and logical organization of databases."
+                  description="Instructed CISC 437, focusing on Database Systems, and discussed topics such as SQL, data retrieval languages, and the principles of security, integrity, as well as the physical and logical organization of databases."
                 />
                 <Experience
                   start="Feb 2024"
                   end="May 2024"
                   title="University of Delaware Computer & Info. Sciences"
                   jobTitle="Teaching Assistant"
-                  description="Additionally, I actively engage with students through office hours, conduct exams and quizzes, and provide clear and constructive feedback to a cohort of 50-60 students. Additionally as duty as an proctor TA, it is my responsibility to schedule exams, whether it be makeup or for computer science courses and to make sure there is not a time constraint in students schedule and the exam schedule. I also report to the TA coordinator about scheduling issues, and whether slots for scheduling exams are avaliable."
+                  description="Actively engaged with students through office hours, conduct exams and quizzes, and provide clear and constructive feedback to a cohort of 50-60 students. Additionally as duty as an proctor TA, scheduled exams, whether it be makeup or for computer science courses and to make sure there is not a time constraint in students schedule and the exam schedule. Reported to the TA coordinator about scheduling issues, and whether slots for scheduling exams are avaliable."
                 />
                 <Experience
                   start="August 2022"
                   end="May 2024"
                   title="University of Delaware Computer Science for Social Good"
                   jobTitle="Volunteer Outreach"
-                  description="I guided potential computer science students to various volunteering, internship, research and industry opportunities within the field. Additionally, I revamped the club's website, enhancing its functionality to showcase events and pose questions for club members, among other improvements."
+                  description="Guided potential computer science students to various volunteering, internship, research and industry opportunities within the field. Revamped the club's website, enhancing its functionality to showcase events and pose questions for club members, among other improvements."
                 />
                 <Experience
                   start="June 2022"
