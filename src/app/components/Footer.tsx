@@ -24,7 +24,7 @@ export default function Footer() {
                 </Link>
             </div>
             <p className="my-5 pb-5">
-                Maxwell Wang © Dec 2025
+                Maxwell Wang © Oct 2026
             </p>
         </div>
     );

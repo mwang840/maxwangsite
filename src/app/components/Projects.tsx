@@ -11,19 +11,17 @@ type ProjectProps = {
 }
 
 export default function Projects({title, description, imageRef, chips, externalLink}: ProjectProps){
-    let imageLinkComponent: JSX.Element;
-
-    if (externalLink === null){
-        imageLinkComponent = <></>;
-    }
-    else{
-        imageLinkComponent = <a href={externalLink[0]} rel="noopener noreferrer">
+    const imageLinkComponent = externalLink === null ? (
+        <></>
+    ) : (
+        <a href={externalLink[0]} rel="noopener noreferrer">
             <span
-                            className={`lg:text-2xl md:text-xl sm:text-lg text-md my-4 p-1 border-2 rounded shadow-xl ${inter.className} text-white`}>
-                              {externalLink[1]}
-                        </span>
+                className={`lg:text-2xl md:text-xl sm:text-lg text-md my-4 p-1 border-2 rounded shadow-xl ${inter.className} text-white`}
+            >
+                {externalLink[1]}
+            </span>
         </a>
-    }
+    );
 
     return (
         <div className="flex flex-col">

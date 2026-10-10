@@ -24,14 +24,15 @@ interface ChessStats {
     last: { rating: number };
   };
   puzzle_rush?: {
-    best: { total_attempts: number };
+    best: { total_attempts: number, score: number };
+
   };
 }
 
 const ChessCard: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <div className="border rounded-xl p-4 shadow-lg bg-white max-w-sm">
-      <h2 className="text-xl font-bold mb-2">{title}</h2>
+    <div className="border rounded-xl p-3 shadow-lg bg-blue-100 max-w-sm">
+      <h2 className="text-xl font-bold mb-2 bg-black">{title}</h2>
       <p className="text-gray-700 whitespace-pre-line">{content}</p>
     </div>
   );
@@ -73,7 +74,7 @@ export const ChessStatsDisplay: React.FC<{ username: string }> = ({
   Bullet 🚅: ${stats.chess_bullet?.last.rating ?? "N/A"}
   Daily ⏱️: ${stats.chess_daily?.last.rating ?? "N/A"}
   Daily960: ${stats.chess960_daily?.last.rating ?? "N/A"}
-  Puzzle_Rush: ${stats.puzzle_rush?.best ?? "N/A"}
+  Puzzle_Rush: ${stats.puzzle_rush?.best.score ?? "N/A"}
   `;
 
   return (
